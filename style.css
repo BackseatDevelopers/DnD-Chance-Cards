@@ -37,9 +37,6 @@
 h1, h2 {
 	font-family: LibreBaskerville;
 }
-p, div {
-	font-family: TexGyrebonum;
-}
 .item h2 {
 	margin: 5px;
 	padding: 0;
@@ -47,7 +44,83 @@ p, div {
 	font-weight: bold;
 	text-transform: uppercase;
 }
-.item p, .item div {
-	margin: 5px;
+.flavor, .effect {
+	height: 70px;
+	line-height: 15px;
 	font-size: 12px;
+	overflow: hidden;
+	padding: 5px;
+	margin: 5px;
+	font-family: TexGyrebonum;
+	position: relative;
+}
+
+.effect {
+	background-color: #ffffff;
+}
+.effect:after {
+	content: "effect";
+	display: block;
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+	color: #555555;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.bow {
+	background-color: #e0ffe0;
+}
+.bow:after {
+	content: "bow";
+	display: block;
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+	color: #005500;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.blunt {
+	background-color: #ffe0ff;
+}
+.blunt:after {
+	content: "blunt";
+	display: block;
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+	color: #555500;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.blade {
+	background-color: #ffffe0;
+}
+.blade:after {
+	content: "blade";
+	display: block;
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+	color: #550055;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.arcane {
+	background-color: #e0e0ff;
+}
+.arcane:after {
+	content: "arcane";
+	display: block;
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+	color: #000055;
+	text-transform: uppercase;
+	font-size: 10px;
 }
