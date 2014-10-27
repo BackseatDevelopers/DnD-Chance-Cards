@@ -55,6 +55,10 @@ h1, h2 {
 	position: relative;
 }
 
+.special {
+	font-style: italic;
+}
+
 .effect {
 	background-color: #ffffff;
 }
@@ -121,6 +125,20 @@ h1, h2 {
 	bottom: 2px;
 	right: 2px;
 	color: #000055;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.divine {
+	background-color: #ffffd0;
+}
+.divine:after {
+	content: "Divine";
+	display: block;
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+	color: #777700;
 	text-transform: uppercase;
 	font-size: 10px;
 }
