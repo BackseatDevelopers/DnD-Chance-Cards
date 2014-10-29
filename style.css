@@ -129,6 +129,20 @@ h1, h2 {
 	font-size: 10px;
 }
 
+.psionic {
+	background-color: #e0ffb0;
+}
+.psionic:after {
+	content: "psionic";
+	display: block;
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+	color: #226600;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
 .divine {
 	background-color: #ffffd0;
 }
