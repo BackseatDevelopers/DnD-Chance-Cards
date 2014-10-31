@@ -15,6 +15,10 @@
 	src: url("texgyrebonum-regular.otf") format("opentype");
 }
 
+.items, .item, p {
+	-webkit-print-color-adjust: exact;
+}
+
 .items {
 	width: 800px;
 }
@@ -32,7 +36,8 @@
 	width: 380px;
 	margin: 5px;
 	padding: 5px;
-	background-color: #f0f0f0;
+	background-color: #f0f0f0 !important;
+    page-break-inside:avoid;
 }
 h1, h2 {
 	font-family: LibreBaskerville;
@@ -60,7 +65,7 @@ h1, h2 {
 }
 
 .effect {
-	background-color: #ffffff;
+	background-color: #ffffff !important;
 }
 .effect:after {
 	content: "effect";
@@ -74,7 +79,7 @@ h1, h2 {
 }
 
 .bow {
-	background-color: #e0ffe0;
+	background-color: #e0ffe0 !important;
 }
 .bow:after {
 	content: "bow";
@@ -88,7 +93,7 @@ h1, h2 {
 }
 
 .blunt {
-	background-color: #ffe0e0;
+	background-color: #ffe0e0 !important;
 }
 .blunt:after {
 	content: "blunt";
@@ -102,7 +107,7 @@ h1, h2 {
 }
 
 .blade {
-	background-color: #ffe0ff;
+	background-color: #ffe0ff !important;
 }
 .blade:after {
 	content: "blade";
@@ -116,7 +121,7 @@ h1, h2 {
 }
 
 .arcane {
-	background-color: #e0e0ff;
+	background-color: #e0e0ff !important;
 }
 .arcane:after {
 	content: "arcane";
@@ -130,7 +135,7 @@ h1, h2 {
 }
 
 .psionic {
-	background-color: #e0ffb0;
+	background-color: #e0ffb0 !important;
 }
 .psionic:after {
 	content: "psionic";
@@ -144,7 +149,7 @@ h1, h2 {
 }
 
 .divine {
-	background-color: #ffffd0;
+	background-color: #ffffd0 !important;
 }
 .divine:after {
 	content: "Divine";
@@ -158,7 +163,7 @@ h1, h2 {
 }
 
 .primal {
-	background-color: #d0a0ff;
+	background-color: #d0a0ff !important;
 }
 .primal:after {
 	content: "Primal";
@@ -172,7 +177,7 @@ h1, h2 {
 }
 
 .sling {
-	background-color: #d0ffff;
+	background-color: #d0ffff !important;
 }
 .sling:after {
 	content: "Sling";
