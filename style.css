@@ -36,7 +36,7 @@
 	width: 380px;
 	margin: 5px;
 	padding: 5px;
-	background-color: #f0f0f0 !important;
+	background: #b0b0b0 url('bg_front.jpg') !important;
     page-break-inside:avoid;
 }
 h1, h2 {
@@ -49,6 +49,7 @@ h1, h2 {
 	font-size: 13px;
 	font-weight: bold;
 	text-transform: uppercase;
+	color: #ffffff;
 }
 .flavor, .effect {
 	height: 70px;
@@ -69,128 +70,112 @@ h1, h2 {
 	width: 760px;
 }
 
+.effect, .flavor  {
+	background-color: rgba(255, 255, 255, 0.8);
+}
 .effect {
-	background-color: #ffffff !important;
+	border: 2px solid gray;
+	margin-top: 15px;
 }
 .effect:after {
 	content: "effect";
 	display: block;
 	position: absolute;
-	bottom: 2px;
-	right: 2px;
-	color: #555555;
+	bottom: 0px;
+	right: 5px;
+	color: gray;
 	text-transform: uppercase;
 	font-size: 10px;
 }
 
-.bow {
-	background-color: #e0ffe0 !important;
+.bow , .sling {
+	border: 2px solid #184D12;
 }
 .bow:after {
 	content: "bow";
 	display: block;
 	position: absolute;
-	bottom: 2px;
-	right: 2px;
-	color: #005500;
+	bottom: 0px;
+	right: 5px;
+	color: #184D12;
 	text-transform: uppercase;
 	font-size: 10px;
-}
-
-.blunt {
-	background-color: #ffe0e0 !important;
-}
-.blunt:after {
-	content: "blunt";
-	display: block;
-	position: absolute;
-	bottom: 2px;
-	right: 2px;
-	color: #550055;
-	text-transform: uppercase;
-	font-size: 10px;
-}
-
-.blade {
-	background-color: #ffe0ff !important;
-}
-.blade:after {
-	content: "blade";
-	display: block;
-	position: absolute;
-	bottom: 2px;
-	right: 2px;
-	color: #550055;
-	text-transform: uppercase;
-	font-size: 10px;
-}
-
-.arcane {
-	background-color: #e0e0ff !important;
-}
-.arcane:after {
-	content: "arcane";
-	display: block;
-	position: absolute;
-	bottom: 2px;
-	right: 2px;
-	color: #000055;
-	text-transform: uppercase;
-	font-size: 10px;
-}
-
-.psionic {
-	background-color: #e0ffb0 !important;
-}
-.psionic:after {
-	content: "psionic";
-	display: block;
-	position: absolute;
-	bottom: 2px;
-	right: 2px;
-	color: #226600;
-	text-transform: uppercase;
-	font-size: 10px;
-}
-
-.divine {
-	background-color: #ffffd0 !important;
-}
-.divine:after {
-	content: "Divine";
-	display: block;
-	position: absolute;
-	bottom: 2px;
-	right: 2px;
-	color: #777700;
-	text-transform: uppercase;
-	font-size: 10px;
-}
-
-.primal {
-	background-color: #d0a0ff !important;
-}
-.primal:after {
-	content: "Primal";
-	display: block;
-	position: absolute;
-	bottom: 2px;
-	right: 2px;
-	color: #220066;
-	text-transform: uppercase;
-	font-size: 10px;
-}
-
-.sling {
-	background-color: #d0ffff !important;
 }
 .sling:after {
 	content: "Sling";
 	display: block;
 	position: absolute;
-	bottom: 2px;
-	right: 2px;
-	color: #005555;
+	bottom: 0px;
+	right: 5px;
+	color: #184D12;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.blunt, .blade, .primal {
+	border: 2px solid #5B0C11;
+}
+.blunt:after {
+	content: "blunt";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	color: #5B0C11;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.blade:after {
+	content: "blade";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	color: #5B0C11;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.primal:after {
+	content: "Primal";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	color: #5B0C11;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.arcane, .psionic, .divine {
+	border: 2px solid #110F41;
+}
+.arcane:after {
+	content: "arcane";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	color: #110F41;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.psionic:after {
+	content: "psionic";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	color: #110F41;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+.divine:after {
+	content: "Divine";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	color: #110F41;
 	text-transform: uppercase;
 	font-size: 10px;
 }
