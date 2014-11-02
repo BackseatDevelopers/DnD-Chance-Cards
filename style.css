@@ -36,8 +36,9 @@
 	width: 380px;
 	margin: 5px;
 	padding: 5px;
-	background: #b0b0b0 url('bg_front.jpg') !important;
+	background: black url('bg_front.jpg') !important;
     page-break-inside:avoid;
+	border-radius: 10px;
 }
 h1, h2 {
 	font-family: LibreBaskerville;
@@ -49,7 +50,7 @@ h1, h2 {
 	font-size: 13px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: white;
 }
 .flavor, .effect {
 	height: 70px;
@@ -60,6 +61,10 @@ h1, h2 {
 	margin: 5px;
 	font-family: TexGyrebonum;
 	position: relative;
+}
+
+.empty {
+	visibility: hidden;
 }
 
 .special {
