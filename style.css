@@ -62,11 +62,6 @@ h1, h2 {
 	font-family: Pala;
 	position: relative;
 }
-.shadow {
-   -moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #000000;
-}
 
 .empty {
 	visibility: hidden;
@@ -86,9 +81,9 @@ h1, h2 {
 .effect {
 	border: 2px solid #402000;
 	margin-top: 15px;
-	-moz-box-shadow:    inset 0 0 10px #402000;
-	-webkit-box-shadow: inset 0 0 10px #402000;
-	box-shadow:         inset 0 0 10px #402000;
+	-moz-box-shadow:    inset 0 0 10px #402000 !important;
+	-webkit-box-shadow: inset 0 0 10px #402000 !important;
+	box-shadow:         inset 0 0 10px #402000 !important;
 }
 .effect:after {
 	content: "effect";
@@ -101,11 +96,18 @@ h1, h2 {
 	font-size: 10px;
 }
 
+.neutral {
+	border: 2px solid #DBDBEA;
+	-moz-box-shadow:    inset 0 0 5px #DBDBEA !important;
+	-webkit-box-shadow: inset 0 0 5px #DBDBEA !important;
+	box-shadow:         inset 0 0 5px #DBDBEA !important;
+}
+
 .bow , .sling {
 	border: 2px solid #004000;
-	-moz-box-shadow:    inset 0 0 5px #004000;
-	-webkit-box-shadow: inset 0 0 5px #004000;
-	box-shadow:         inset 0 0 5px #004000;
+	-moz-box-shadow:    inset 0 0 5px #004000 !important;
+	-webkit-box-shadow: inset 0 0 5px #004000 !important;
+	box-shadow:         inset 0 0 5px #004000 !important;
 }
 .bow:after {
 	content: "bow";
@@ -130,9 +132,9 @@ h1, h2 {
 
 .blunt, .blade, .primal {
 	border: 2px solid #400000;
-	-moz-box-shadow:    inset 0 0 5px #400000;
-	-webkit-box-shadow: inset 0 0 5px #400000;
-	box-shadow:         inset 0 0 5px #400000;
+	-moz-box-shadow:    inset 0 0 5px #400000 !important;
+	-webkit-box-shadow: inset 0 0 5px #400000 !important;
+	box-shadow:         inset 0 0 5px #400000 !important;
 }
 .blunt:after {
 	content: "blunt";
@@ -167,11 +169,12 @@ h1, h2 {
 
 .arcane, .psionic, .divine {
 	border: 2px solid #100040;
-	-moz-box-shadow:    inset 0 0 5px #100040;
-	-webkit-box-shadow: inset 0 0 5px #100040;
-	box-shadow:         inset 0 0 5px #100040;
+	-moz-box-shadow:    inset 0 0 5px #100040 !important;
+	-webkit-box-shadow: inset 0 0 5px #100040 !important;
+	box-shadow:         inset 0 0 5px #100040 !important;
 	
 }
+
 .arcane:after {
 	content: "arcane";
 	display: block;
