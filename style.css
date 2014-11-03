@@ -34,7 +34,7 @@
 .item {
 	float: left;
 	width: 380px;
-	margin: 5px;
+	margin: 7px;
 	padding: 5px;
 	background: black url('bg_front.jpg') !important;
     page-break-inside:avoid;
@@ -50,7 +50,7 @@ h1, h2 {
 	font-size: 13px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: white;
+	color: white !important;
 }
 .flavor, .effect {
 	height: 70px;
@@ -76,7 +76,7 @@ h1, h2 {
 }
 
 .effect, .flavor  {
-	background-color: rgba(255, 255, 255, 0.65);
+	background-color: rgba(255, 255, 255, 0.65) !important;
 }
 .effect {
 	border: 2px solid #402000;
