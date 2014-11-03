@@ -34,12 +34,21 @@
 .item {
 	float: left;
 	width: 380px;
-	margin: 5px;
+	margin: 7px;
 	padding: 5px;
 	background: black url('bg_front.jpg') !important;
     page-break-inside:avoid;
-
 }
+.fumble.backside .item {
+	background: black url('bg_back_ Fumble.jpg') !important;
+}
+.critical.backside .item {
+	background: black url('bg_back_Crit.jpg') !important;
+}
+.backside .flavor, .backside .effect, .backside h2 {
+	visibility: hidden;
+}
+
 h1, h2 {
 	font-family: Pala;
 }
@@ -76,7 +85,7 @@ h1, h2 {
 }
 
 .effect, .flavor  {
-	background-color: rgba(255, 255, 255, 0.65);
+	background-color: rgba(255, 255, 255, 0.65) !important;
 }
 .effect {
 	border: 2px solid #402000;
