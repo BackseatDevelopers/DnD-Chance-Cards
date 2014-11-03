@@ -38,10 +38,10 @@
 	padding: 5px;
 	background: black url('bg_front.jpg') !important;
     page-break-inside:avoid;
-	border-radius: 10px;
+
 }
 h1, h2 {
-	font-family: LibreBaskerville;
+	font-family: Pala;
 }
 .item h2 {
 	margin: 5px;
@@ -59,8 +59,13 @@ h1, h2 {
 	overflow: hidden;
 	padding: 5px;
 	margin: 5px;
-	font-family: TexGyrebonum;
+	font-family: Pala;
 	position: relative;
+}
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
 }
 
 .empty {
@@ -76,11 +81,14 @@ h1, h2 {
 }
 
 .effect, .flavor  {
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.65);
 }
 .effect {
-	border: 2px solid gray;
+	border: 2px solid #402000;
 	margin-top: 15px;
+	-moz-box-shadow:    inset 0 0 10px #402000;
+	-webkit-box-shadow: inset 0 0 10px #402000;
+	box-shadow:         inset 0 0 10px #402000;
 }
 .effect:after {
 	content: "effect";
@@ -88,13 +96,16 @@ h1, h2 {
 	position: absolute;
 	bottom: 0px;
 	right: 5px;
-	color: gray;
+	color: #402000;
 	text-transform: uppercase;
 	font-size: 10px;
 }
 
 .bow , .sling {
-	border: 2px solid #184D12;
+	border: 2px solid #004000;
+	-moz-box-shadow:    inset 0 0 5px #004000;
+	-webkit-box-shadow: inset 0 0 5px #004000;
+	box-shadow:         inset 0 0 5px #004000;
 }
 .bow:after {
 	content: "bow";
@@ -102,7 +113,7 @@ h1, h2 {
 	position: absolute;
 	bottom: 0px;
 	right: 5px;
-	color: #184D12;
+	color: #004000;
 	text-transform: uppercase;
 	font-size: 10px;
 }
@@ -112,13 +123,16 @@ h1, h2 {
 	position: absolute;
 	bottom: 0px;
 	right: 5px;
-	color: #184D12;
+	color: #004000;
 	text-transform: uppercase;
 	font-size: 10px;
 }
 
 .blunt, .blade, .primal {
-	border: 2px solid #5B0C11;
+	border: 2px solid #400000;
+	-moz-box-shadow:    inset 0 0 5px #400000;
+	-webkit-box-shadow: inset 0 0 5px #400000;
+	box-shadow:         inset 0 0 5px #400000;
 }
 .blunt:after {
 	content: "blunt";
@@ -126,7 +140,7 @@ h1, h2 {
 	position: absolute;
 	bottom: 0px;
 	right: 5px;
-	color: #5B0C11;
+	color: #400000;
 	text-transform: uppercase;
 	font-size: 10px;
 }
@@ -136,7 +150,7 @@ h1, h2 {
 	position: absolute;
 	bottom: 0px;
 	right: 5px;
-	color: #5B0C11;
+	color: #400000;
 	text-transform: uppercase;
 	font-size: 10px;
 }
@@ -146,13 +160,17 @@ h1, h2 {
 	position: absolute;
 	bottom: 0px;
 	right: 5px;
-	color: #5B0C11;
+	color: #400000;
 	text-transform: uppercase;
 	font-size: 10px;
 }
 
 .arcane, .psionic, .divine {
-	border: 2px solid #110F41;
+	border: 2px solid #100040;
+	-moz-box-shadow:    inset 0 0 5px #100040;
+	-webkit-box-shadow: inset 0 0 5px #100040;
+	box-shadow:         inset 0 0 5px #100040;
+	
 }
 .arcane:after {
 	content: "arcane";
@@ -160,7 +178,7 @@ h1, h2 {
 	position: absolute;
 	bottom: 0px;
 	right: 5px;
-	color: #110F41;
+	color: #100040;
 	text-transform: uppercase;
 	font-size: 10px;
 }
@@ -170,7 +188,7 @@ h1, h2 {
 	position: absolute;
 	bottom: 0px;
 	right: 5px;
-	color: #110F41;
+	color: #100040;
 	text-transform: uppercase;
 	font-size: 10px;
 }
@@ -180,7 +198,7 @@ h1, h2 {
 	position: absolute;
 	bottom: 0px;
 	right: 5px;
-	color: #110F41;
+	color: #100040;
 	text-transform: uppercase;
 	font-size: 10px;
 }
