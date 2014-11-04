@@ -24,7 +24,7 @@
 			When it states that "You grant combat advantage", this means until the start of your next turn unless otherwise specified.
 		</p>
 		<p class="clarification">
-			When it states that "The attack doesn't happen", that means apply damage or effects to the current target, or any subsequent targets. Any targets already hit are unaffected by this.
+			When it states that "The attack doesn't happen", that means do not apply damage or effects to the current target, or any subsequent targets. Any targets already hit are unaffected by this.
 		</p>
 		<p class="clarification">
 			When it states "you do maximum damage", this only applies for normal damage rolls, not for added rolls like backstab, extra critical damage from weapon, hunter's quarry and the like.
@@ -32,7 +32,7 @@
 		<p class="clarification">
 			When it states "you do double damage", roll normal damage (including all modifiers) and then double it. Do not add effects like backstab, extra critical damage from weapon, hunter's quarry and the like before doubling.
 		</p>
-		<p>
+		<p class="clarification">
 			<button class="frontback">Toggle front / back</button>
 		</p>
 		<h1>Fumbles (<span class="fumblecount"></span>)</h1>
@@ -70,22 +70,23 @@
 			<div class="item">
 				<h2>Overconfidence</h2>
 				<p class="flavor bow">
-					You proudly aim at your foe, prepared to smite them down with a single arrow. A feeling of shame overcomes you as you completely miss your target, your arrow not even going in its general direction.
+					You aim proudly at your foe, prepared to smite them with a single arrow. A feeling of shame overcomes you as you completely miss your target, your arrow not even going in its general direction.
 				</p>
 				<p class="flavor blade">
-					You start swinging your weapon around to show off your skills and confidently strut towards your enemy. As you swing wide, your enemy easily dodges your attempt to hit and you shamefully slice into the air.
+					You start swinging your weapon around to show off your skills and confidently strut towards your enemy. As you swing wide, your enemy easily dodges your attempt to hit and you shamefully slice nothing but air.
 				</p>
 				<p class="flavor arcane">
 					You proudly declare to your party that you will knock your enemies prone with enormous power in this single attack. Laughter arises from your party as your attempt at spell-weaving results in utter failure.
 				</p>
 				<div class="effect">
-					Your attack doesn't happen (don't apply miss effects).You grant combat advantage. You take a -2 penalty on your next attack roll due to a short-lived lack of confidence.
+					Your attack doesn't happen (don't apply miss effects).You grant combat advantage. You take a -2 penalty to attack rolls until you hit something due to a short-lived lack of confidence.
 				</div>
 			</div>
 			<div class="item">
 				<h2>Greasy hands</h2>
 				<p class="flavor blunt">
-					You make a grotesque attack with your weapon, only to find out your hands have been sweating too much. Before the strike lands, you lose grip of your weapon and send it flying to infinity, and beyond.
+					You make a grotesque attack with your weapon, only to find out your hands have been sweating too much. Before the strike lands, you lose grip of your weapon and send it flying.<br />
+					<span class="special">To infinity, and beyond!</span>
 				</p>
 				<p class="flavor blade">
 					Your light and swift strike would have cut your enemy clear in two. As you hear the sound of metal hitting the floor in the distance, you suddenly realise why your stroke had felt so light.
@@ -115,7 +116,7 @@
 			<div class="item">
 				<h2>Unfavorable mixture</h2>
 				<p class="flavor arcane">
-					As you call on the elements to cast your next spell, you soon realise that you have made a horrible mistake in the composition. Unable to control it any longer you are forced to cast it upon yourself to save your allies.
+					As you call on the elements to cast your next spell, you soon realise that you have made a horrible mistake in the composition. Unable to control it any longer, you are forced to cast it upon yourself to save your allies.
 				</p>
 				<p class="flavor divine">
 					As your first plea for divine intervention wasn't granted, you selfishly call upon another god to slay the enemy before you. Instead, you are smitten by the fury of the original, for lack of loyalty.
@@ -124,7 +125,7 @@
 					As you gather the energy from your surroundings, a disturbance makes your primal power to backfire, causing you to get hit by it yourself. 
 				</p>
 				<p class="effect">
-					Your attack misses and is reflected back towards you. All damage and effects are to be applied only to yourself. 
+					Your attack misses and is reflected back towards you. All damage and effects are to be applied only to yourself.
 				</p>
 			</div>
 			<div class="item">
@@ -133,37 +134,37 @@
 					Mid-combat, you find yourself unable to suppress the urge to have a big sneeze. As snot covers your armor, you are forced to pause and lower your weapons for a second.
 				</p>
 				<p class="flavor arcane">
-					Just as you start to cast your spell, your concentration gets drawn away. A huge explosion of snot signifies the failure of what would have been a sure hit.
+					Just as you start to cast your spell, your concentration gets drawn away. A huge explosion of snot signifies the failure of what would otherwise have been a sure hit.
 				</p>
 				<p class="flavor psionic">
 					As you start to focus inward on your mental energy. Suddenly, you lift your head, but instead of unleashing hell upon your enemies, you unleash a large wad of booger upon yourself.
 				</p>
 				<p class="effect">
-					Your attack doesn't happen (don't apply miss effects). You grant combat advantage to all enemies until the start of your next turn. You take 1 acid damage.
+					Your attack doesn't happen (don't apply miss effects). You grant combat advantage. You are unable to take any more actions this turn. You take 1 acid damage.
 				</p>
 			</div>
 			<div class="item">
 				<h2>Burn - Out</h2>
 				<p class="flavor psionic">
-					You feel your mind faltering, but you refuse to give in to such small things. You draw out all your remaining power to make a strong attack, but your mind can't handle the strain. Suddenly, everything goes black...
+					You feel your mind faltering, but you refuse to give in to such small things. You draw out all your remaining power to make a strong attack, but your mind can't handle the strain. Suddenly, everything goes dark...
 				</p>
 				<p class="flavor primal">
-					Your bond with nature is strong, but your technique is wavering and your spirit tired. You decide to press on and ignore your instincts. You are able to unlease one mighty blow, but then, everything fades away...
+					Your bond with nature is strong, but your technique is wavering and your spirit tired. You decide to press on and ignore your instincts. You are able to unleash one mighty blow, but then, everything fades away...
 				</p>
 				<p class="flavor divine">
 					Your devotion is unwavering, but your physical body cannot keep up with the divine energy flowing through it. You choose to ignore the earthly and channel up one final feat of divinity before your body finally gives in.
 				</p>
 				<p class="effect">
-					Your attack deals maximum damage. All subsequent attacks are prevented (including effects on miss). You fall unconscious (saving throw ends). You take a -1 penalty to all attack rolls until your next extended rest.
+					Your attack deals maximum damage. Any subsequent targets take maximum damage. You fall unconscious (saving throw ends). You take a -1 penalty to all attack rolls until your next extended rest.
 				</p>
 			</div>
 			<div class="item">
 				<h2>King Arthur</h2>
 				<p class="flavor blade">
-					As you attack your enemy with full power, the attack is deflected, causing the blade of your blade to get stuck in a cavity in the ground near them...
+					As you attack your enemy with full power, the attack is deflected, causing your blade to get stuck in a cavity in the ground near them...
 				</p>
 				<p class="flavor blunt">
-					You charge into your enemy shouting "it's clobbering time!" while swinging your weapon wildly. It seems that control sometimes does matter. You face-plant into the ground as your weapon gets wedged between some boulders.
+					You charge into your enemy shouting "it's clobbering time!" while swinging your weapon wildly. It seems that control sometimes does matter. You face-plant into the ground and your weapon gets wedged in-between some rocks.
 				</p>
 				<p class="flavor empty">
 				</p>
@@ -174,10 +175,10 @@
 			<div class="item">
 				<h2>Ricochet</h2>
 				<p class="flavor sling">
-					You fire a shot with your sling towards one of your enemies but your lack of aim causes you to miss the target completely. The stone ricochets off a wall right back into your face.
+					You fire a shot with your sling towards one of your enemies but your lack of aim causes you to miss the target completely. The stone ricochets off of a wall and right back into your face.
 				</p>
 				<p class="flavor blunt">
-					You leap into battle; fearless as you are; but your weapon ricochets off your enemy's armor causing you to smash your own foot.
+					You leap into battle; fearless as you are; but your weapon ricochets off your enemy's armor, causing you to smash your own foot.
 				</p>
 				<p class="flavor arcane">
 					You cast an arcane spell but you notice far too late that there is a disturbance in the energy. As you try to compensate, your spell turns against you as if of its own will.
@@ -225,7 +226,7 @@
 					you have completely forgotten to replenish it after the last fight.
 				</p>
 				<p class="flavor blade">
-					As you try to swing your blade it gets tangled in a loose
+					As you try to swing your blade, it gets tangled in a loose
 					strap hanging from you armor. Even the enemy looks amused as you desperately try to free your weapon. 
 				</p>
 				<p class="flavor bow">
@@ -233,7 +234,7 @@
 					coming from your bow. It seems that the string has come loose on one side.  
 				</p>
 				<p class="effect">
-					You fail to do an attack this turn. You are unable to attack during &frac12 d6 rounds as you prepare yourself for battle again. You grant combat advantage during this period of time.
+					You fail to do an attack this turn. You are unable to use your current weapon or implement for 1d4 rounds as you prepare yourself for battle again. You grant combat advantage during this period of time.
 				</p>
 			</div>
 			
@@ -257,7 +258,7 @@
 					In your bravado, you swing your sling around and perform a little trick by twirling it over your head. However, your armor impairs your arm movement and you smack your sling straight into your left eye.
 				</p>
 				<p class="flavor bow">
-					In an attempt to look like some kind of badass Legolas, you draw your bow to your chest instead of to your shoulder. You underestimate the strength required for this feat lose grip of the bow, which promptly smacks into your face.
+					In an attempt to look like some kind of badass Legolas, you draw your bow to your chest instead of to your shoulder. You underestimate the strength required for this feat and lose your grip on the bow, which promptly smacks into your face.
 				</p>
 				<p class="flavor divine">
 					In order to look extra cool, you decide to expend some of the energy you would normally use for your spell, to make yourself light up. You use way too much energy for effect and even end up blinding yourself in the process.
@@ -278,16 +279,16 @@
 					You plead with the divines for power, but your prayers are left unheard. You focus your entire being into a devoted prayer, but lose track of everything around you, at a cost.
 				</p>
 				<p class="effect">
-					Your attack hits and deals half damage. You grant combat advantage. You are weakened for 1d4 turns. All enemies that you are in range of get a free attack of opportunity against you. If any of them hits, you drop prone.
+					Your attack hits and deals half damage. You grant combat advantage. You are weakened for 1d4 turns. All enemies that you are in range of get a free attack of opportunity against you. If any of them hit, you drop prone.
 				</p>
 			</div>
 			<div class="item">
 				<h2>Emo</h2>
 				<p class="flavor blade">
-					You twirl your blade in an attempt to distract your enemy before striking. You make a wrong move and drop your weapon. In a rapid attempt to stop your weapon from falling, you nearly slit your own wrist.
+					You twirl your blade in an attempt to distract your enemy before striking. You make a false move and drop your weapon. In a rapid attempt to stop your weapon from falling, you nearly slit your own wrist.
 				</p>
 				<p class="flavor bow">
-					Before drawing up your bow, you flourish your arrow in an attempt to confuse your target. You make a false move and end up nearly slitting your own wrist.
+					Before drawing up your bow, you flourish your arrow in an attempt to confuse your target. You make a false move and end up nearly slitting your own wrist with the point of the arrow.
 				</p>
 				<p class="flavor empty">
 				</p>
@@ -483,7 +484,7 @@
 					Your magic power surges and the sound of your spell strikes fear into the heart of your enemies, compelling them to run while they still can.
 				</p>
 				<p class="flavor blunt">
-					A heavy blow to the very skull of the enemy makes a dent they will not ever recover from. As you roar with rage, your enemies are crippled with fear.
+					A heavy blow to the skull of the enemy makes a dent they will not ever recover from. As you roar with rage, your enemies are crippled with fear.
 				</p>
 				<p class="effect">
 					<span class="special">If the target is dead, use area burst 2 centered on target.</span>
@@ -530,7 +531,7 @@
 					As you draw upon the energy of nature, you become one with the spirits, experiencing a short trance the likes of which you have never experienced before. You strike true and feel renewed in heart and soul.
 				</p>
 				<p class="flavor psionic">
-					You concentrate on your inner eye, searching your mind for strength. For a moment, you can feel a glimpse nirvana. As it fades away, you feel empowered like you've never felt before, bolstering both your offense and defense.
+					You concentrate on your inner eye, searching your mind for strength. For a moment, you experience a glimpse of nirvana. As it fades away, you feel empowered like you've never felt before, bolstering both your offense and defense.
 				</p>
 				<p class="effect">
 					Your attack deals maximum damage. Choose one: spend a healing surge as a minor action, regain a healing surge or remove one effect that a saving throw can end as a free action.
@@ -570,7 +571,7 @@
 			<div class="item">
 				<h2>Deadly accuracy</h2>
 				<p class="flavor bow">
-					You zone out your environment completely, focusing solely on your target. As you release your shot, you already know that your shot will strike your opponents vitals with pinpoint accuracy.
+					You zone out your environment completely, focusing solely on your target. As you release your shot, you already know that your shot will strike your opponents' vitals with pinpoint accuracy.
 				</p>
 				<p class="flavor blade">
 					You engage your enemy in a close combat battle with intense concentration. As you enter the zone, time itself seems to slow down, making it possible for you to strike your enemy's vitals with ease.
@@ -652,7 +653,7 @@
 					You make a brutal and accurate strike aimed for your target's hearing. The strike finds its target precisely and delivers what you had planned for it.
 				</p>
 				<p class="flavor arcane">
-					You decide that your spell could use an extra something-something. You use a bit of leftover energy to create a vibration in the air, resulting in a loud bang just next to your target.
+					You decide that your spell could use a little something-something. You use a bit of leftover energy to create a vibration in the air, resulting in a loud bang just next to your target.
 				</p>
 				<p class="effect">
 					Your attack deals maximum damage. The target is deafened (-10 to perception checks) until the end of the encounter. It grants combat advantage until the end of its next turn.
@@ -853,7 +854,7 @@
 				<p class="flavor empty">
 				</p>
 				<p class="flavor neutral">
-					<span class="special">Luck is what happens when preparation meets opportunity.</span>
+					<span class="special">Luck is spelled W-O-R-K and is defined as &quot;when preparation meets opportunity&quot;.</span>
 				</p>
 				<p class="flavor empty">					
 				</p>

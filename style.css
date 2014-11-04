@@ -59,7 +59,7 @@ h1, h2 {
 	font-size: 13px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: white;
+	color: #ffffff !important;
 }
 .flavor, .effect {
 	height: 70px;
