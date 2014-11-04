@@ -34,16 +34,17 @@
 .item {
 	float: left;
 	width: 380px;
+	height: 360px;
 	margin: 7px;
 	padding: 5px;
 	background: black url('bg_front.jpg') !important;
     page-break-inside:avoid;
 }
 .fumble.backside .item {
-	background: black url('bg_back_ Fumble.jpg') !important;
+	background: black url('bg_back_fumble2.jpg') !important;
 }
 .critical.backside .item {
-	background: black url('bg_back_Crit.jpg') !important;
+	background: black url('bg_back_Crit2.jpg') !important;
 }
 .backside .flavor, .backside .effect, .backside h2 {
 	visibility: hidden;
