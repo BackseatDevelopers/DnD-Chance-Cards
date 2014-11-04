@@ -86,7 +86,7 @@ h1, h2 {
 }
 
 .effect, .flavor  {
-	background-color: rgba(255, 255, 255, 0.65) !important;
+	/*background-color: rgba(255, 255, 255, 0.65) !important;*/
 }
 .effect {
 	margin-top: 15px;
@@ -104,17 +104,11 @@ h1, h2 {
 }
 
 .neutral {
-	border: 2px solid #DBDBEA;
-	-moz-box-shadow:    inset 0 0 5px #DBDBEA !important;
-	-webkit-box-shadow: inset 0 0 5px #DBDBEA !important;
-	box-shadow:         inset 0 0 5px #DBDBEA !important;
+	background-image: url('neutral.fw.png');
 }
 
 .bow , .sling {
-	border: 2px solid #004000;
-	-moz-box-shadow:    inset 0 0 5px #004000 !important;
-	-webkit-box-shadow: inset 0 0 5px #004000 !important;
-	box-shadow:         inset 0 0 5px #004000 !important;
+	background-image: url('sling.fw.png');
 }
 .bow:after {
 	content: "bow";
@@ -138,10 +132,7 @@ h1, h2 {
 }
 
 .blunt, .blade, .primal {
-	border: 2px solid #400000;
-	-moz-box-shadow:    inset 0 0 5px #400000 !important;
-	-webkit-box-shadow: inset 0 0 5px #400000 !important;
-	box-shadow:         inset 0 0 5px #400000 !important;
+	background-image: url('blunt.fw.png');
 }
 .blunt:after {
 	content: "blunt";
@@ -175,11 +166,7 @@ h1, h2 {
 }
 
 .arcane, .psionic, .divine {
-	border: 2px solid #100040;
-	-moz-box-shadow:    inset 0 0 5px #100040 !important;
-	-webkit-box-shadow: inset 0 0 5px #100040 !important;
-	box-shadow:         inset 0 0 5px #100040 !important;
-	
+	background-image: url('arcane.fw.png');	
 }
 
 .arcane:after {
