@@ -54,7 +54,7 @@ h1, h2 {
 	font-family: Pala;
 }
 .item h2 {
-	margin: 5px;
+	margin: 10px;
 	margin-bottom: 10px;
 	padding: 0;
 	font-size: 13px;
@@ -90,32 +90,32 @@ h1, h2 {
 }
 .effect {
 	margin-top: 15px;
-	background-image: url('effect.fw.png');
+	background-image: url('effect.fw.png') !important;
 }
 .effect:after {
 	content: "effect";
 	display: block;
 	position: absolute;
-	bottom: 0px;
-	right: 5px;
+	bottom: 5px;
+	right: 10px;
 	color: #402000;
 	text-transform: uppercase;
 	font-size: 10px;
 }
 
 .neutral {
-	background-image: url('neutral.fw.png');
+	background-image: url('neutral.fw.png') !important;
 }
 
 .bow , .sling {
-	background-image: url('sling.fw.png');
+	background-image: url('sling.fw.png') !important;
 }
 .bow:after {
 	content: "bow";
 	display: block;
 	position: absolute;
-	bottom: 0px;
-	right: 5px;
+	bottom: 5px;
+	right: 10px;
 	color: #004000;
 	text-transform: uppercase;
 	font-size: 10px;
@@ -124,22 +124,22 @@ h1, h2 {
 	content: "Sling";
 	display: block;
 	position: absolute;
-	bottom: 0px;
-	right: 5px;
+	bottom: 5px;
+	right: 10px;
 	color: #004000;
 	text-transform: uppercase;
 	font-size: 10px;
 }
 
 .blunt, .blade, .primal {
-	background-image: url('blunt.fw.png');
+	background-image: url('blunt.fw.png') !important;
 }
 .blunt:after {
 	content: "blunt";
 	display: block;
 	position: absolute;
-	bottom: 0px;
-	right: 5px;
+	bottom: 5px;
+	right: 10px;
 	color: #400000;
 	text-transform: uppercase;
 	font-size: 10px;
@@ -148,8 +148,8 @@ h1, h2 {
 	content: "blade";
 	display: block;
 	position: absolute;
-	bottom: 0px;
-	right: 5px;
+	bottom: 5px;
+	right: 10px;
 	color: #400000;
 	text-transform: uppercase;
 	font-size: 10px;
@@ -158,23 +158,23 @@ h1, h2 {
 	content: "Primal";
 	display: block;
 	position: absolute;
-	bottom: 0px;
-	right: 5px;
+	bottom: 5px;
+	right: 10px;
 	color: #400000;
 	text-transform: uppercase;
 	font-size: 10px;
 }
 
 .arcane, .psionic, .divine {
-	background-image: url('arcane.fw.png');	
+	background-image: url('arcane.fw.png') !important;	
 }
 
 .arcane:after {
 	content: "arcane";
 	display: block;
 	position: absolute;
-	bottom: 0px;
-	right: 5px;
+	bottom: 5px;
+	right: 10px;
 	color: #100040;
 	text-transform: uppercase;
 	font-size: 10px;
@@ -183,8 +183,8 @@ h1, h2 {
 	content: "psionic";
 	display: block;
 	position: absolute;
-	bottom: 0px;
-	right: 5px;
+	bottom: 5px;
+	right: 10px;
 	color: #100040;
 	text-transform: uppercase;
 	font-size: 10px;
@@ -193,8 +193,8 @@ h1, h2 {
 	content: "Divine";
 	display: block;
 	position: absolute;
-	bottom: 0px;
-	right: 5px;
+	bottom: 5px;
+	right: 10px;
 	color: #100040;
 	text-transform: uppercase;
 	font-size: 10px;

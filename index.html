@@ -279,7 +279,7 @@
 					You plead with the divines for power, but your prayers are left unheard. You focus your entire being into a devoted prayer, but lose track of everything around you, at a cost.
 				</p>
 				<p class="effect">
-					Your attack hits and deals half damage. You grant combat advantage. You are weakened for 1d4 turns. All enemies that you are in range of get a free attack of opportunity against you. If any of them hit, you drop prone.
+					Your attack hits and deals half damage. You grant combat advantage. You are weakened until the end of your next turn. All enemies that you are in range of get a free attack of opportunity against you. If any of them hit, you drop prone.
 				</p>
 			</div>
 			<div class="item">
@@ -293,7 +293,7 @@
 				<p class="flavor empty">
 				</p>
 				<p class="effect">
-					Your attack doesn't happen (don't apply miss effects). You grant combat advantage. You are weakened for 1d4 turns.
+					Your attack doesn't happen (don't apply miss effects). You grant combat advantage. You are weakened for 1d4 turns. You take 1d4 damage.
 				</p>
 			</div>
 			<div class="item">
@@ -463,12 +463,13 @@
 				</p>
 				<p class="flavor neutral">
 					When a party member (or a monster?) fumbles, draw a card from the deck. 
+					If the type of attack matches any of the flavor texts on the card, read it out loud and apply the effect.
+					If none of the flavor texts match the type of the attack, draw a new card. Repeat until a match is found.
 				</p>
-				<p class="flavor neutral">
-					If the type of attack matches any of the flavor texts on the card, read it and apply the effect.
+				<p class="flavor empty">
 				</p>
-				<p class="flavor neutral">
-					If none of the flavor texts match the type of the attack, draw a new card. Repeat until a fumble happens.
+				<p class="effect">
+					Some spice is added to the game.
 				</p>
 			</div>
 		</div>
@@ -534,7 +535,7 @@
 					You concentrate on your inner eye, searching your mind for strength. For a moment, you experience a glimpse of nirvana. As it fades away, you feel empowered like you've never felt before, bolstering both your offense and defense.
 				</p>
 				<p class="effect">
-					Your attack deals maximum damage. Choose one: spend a healing surge as a minor action, regain a healing surge or remove one effect that a saving throw can end as a free action.
+					Your attack deals maximum damage. Choose one: spend a healing surge and regain hp as normal, regain a healing surge, or remove one effect that a saving throw can end.
 				</p>
 			</div>
 			<div class="item">
@@ -612,7 +613,7 @@
 				<p class="effect">
 					Your attack deals maximum damage.<br />
 					If your attack was melee, change it to a close burst 1 and re-roll hit for every enemy in it except the original target.<br />
-					If your attack was a burst, add 1 to the radius.
+					If your attack was a burst or a blast, add 1 to the radius.
 				</p>
 			</div>
 			<div class="item">
@@ -636,7 +637,7 @@
 					As you draw power from the divine, you find yourself short for the feat you are about to perform. You refuse to give up, and draw upon the power from within. This makes for a unique combination.
 				</p>
 				<p class="flavor psionic">
-					You forge your power from the insides of your mind, but this time you find it lacking. You refuse to give in, and in a moment of clarity, you catch a glimpse of your divine self, drawing divine power to bolster your strength.
+					You forge your power from the insides of your mind, but this time you find it lacking. You refuse to give in, and in a moment of clarity, you catch a glimpse of your divine self and draw in some divine power to further bolster your strength.
 				</p>
 				<p class="flavor empty">
 				</p>
@@ -650,7 +651,7 @@
 					You aim your bullet straight for their hearing. You strike with a viscous accuracy, hitting your enemy exactly where you had aimed.
 				</p>
 				<p class="flavor blunt">
-					You make a brutal and accurate strike aimed for your target's hearing. The strike finds its target precisely and delivers what you had planned for it.
+					You make a brutal and accurate strike aimed for your target's hearing. The strike finds its target precisely and delivers exactly what you had in mind.
 				</p>
 				<p class="flavor arcane">
 					You decide that your spell could use a little something-something. You use a bit of leftover energy to create a vibration in the air, resulting in a loud bang just next to your target.
@@ -680,7 +681,7 @@
 					After casting your spell, you are left in a state of trance. Time seems to have slowed down a bit for you. You can read the flow of battle and the intentions of your enemies, allowing you to predict their movement.
 				</p>
 				<p class="flavor psionic">
-					After performing your psionic feat, you are left in a state of enlightenment. Your body feels light and your moves swift. You are able to partially read the thoughts of your opponents, allowing you to predict the flow of battle.
+					After performing your psionic feat, you are left in a state of enlightenment. Your body feels light and your moves become swift. You are able to partially read the thoughts of your opponents, allowing you to predict the flow of battle.
 				</p>
 				<p class="flavor primal">
 					Using the power of nature has left you with strangely heightened instincts. Suddenly, you are able to sense the movement and intentions of your enemies.
@@ -734,7 +735,7 @@
 					All experienced spellcasters know that it's easier to cast from afar than it is with the enemy breathing down your neck. In your infinite wisdom, you decide to attempt to slow down the enemy with this spell.
 				</p>
 				<p class="effect">
-					Your attack hits and deals normal damage. All enemies hit by this ability are slowed for 1d4 + 1 turns. Make a DC15 dexterity check. Success: current target is restrained until the end of your next turn.
+					Your attack deals maximum damage. All enemies hit by this ability are slowed for 1d4 + 1 turns. Make a DC15 dexterity check. Success: current target is restrained until the end of your next turn.
 				</p>
 			</div>
 			<div class="item">
@@ -765,7 +766,7 @@
 				<p class="flavor empty">					
 				</p>
 				<p class="effect">
-					Roll the damage twice and use either result. If doubling the full damage of the attack (including any and all bonuses) would kill the enemy, it dies on the spot. Otherwise, add your Level to the damage.
+					Roll the damage twice and use either result. If doubling the full damage of the attack (including any and all bonuses such as backstab, extra crit damage, ...) would kill the enemy, it dies on the spot. Otherwise, add your Level to the damage.
 				</p>
 			</div>
 			<div class="item">
@@ -806,8 +807,8 @@
 				</p>
 				<p class="effect">
 					Option 1: Score a critical hit now (and get a new card)<br />
-					Option 2: Score a critical hit the next time you'd miss<br />
-					Option 3: Score a critical hit the next time you'd fumble<br />
+					Option 2: Score a critical hit the next time you'd miss (no new card)<br />
+					Option 3: Score a critical hit the next time you'd fumble (no new card)<br />
 				</p>
 			</div>
 			<div class="item">
@@ -820,7 +821,7 @@
 				<p class="flavor empty">					
 				</p>
 				<p class="effect">
-					Your attack deals maximum damage. You get a free move action that cannot be changed into a minor action. You get a +5 bonus to stealth while you use it.
+					Your attack deals maximum damage. You can shift up to a number of squares equal to your speed. You get a +5 bonus to stealth checks made during this shift.
 				</p>
 			</div>
 			<div class="item">
@@ -907,12 +908,13 @@
 				</p>
 				<p class="flavor neutral">
 					When a party member (or a monster?) makes a critical hit, draw a card from the stack.
-				</p>
-				<p class="flavor neutral">
-					If there is a flavor text matching the attack type used, read it and apply the effect.
-				</p>
-				<p class="flavor neutral">
+					If there is a flavor text matching the attack type used, read it out loud and apply the effect.
 					If there is no corresponding flavor text, a normal critical hit happens.
+				</p>
+				<p class="flavor empty">
+				</p>
+				<p class="effect">
+					Some spice is added to the game.
 				</p>
 			</div>
 		<div>
